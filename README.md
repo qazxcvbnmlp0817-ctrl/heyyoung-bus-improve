@@ -2,7 +2,7 @@
 
 내 정류장 이름으로 목포대학교 통학버스 시간을 찾는 모바일 웹사이트입니다.
 
-- 배포 링크: (배포 후 링크를 적어 주세요. 예: `https://<GitHub 사용자명>.github.io/<저장소 이름>/`)
+- 배포 링크: https://qazxcvbnmlp0817-ctrl.github.io/heyyoung-bus-improve/
 
 ## 프로젝트 목적
 
@@ -82,7 +82,7 @@
 
 ### 배포된 사이트에서 보기
 
-(배포 링크를 적어 주세요)
+https://qazxcvbnmlp0817-ctrl.github.io/heyyoung-bus-improve/ 를 스마트폰이나 PC 브라우저에서 엽니다.
 
 ### 내 컴퓨터에서 실행하기
 
