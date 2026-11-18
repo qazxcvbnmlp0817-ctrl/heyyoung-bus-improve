@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b5cab">
+  <title>목포대 통학버스</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>목포대 통학버스</h1>
+    <div class="search">
+      <label for="stop-input" class="sr-only">정류장 이름</label>
+      <input id="stop-input" type="search" placeholder="정류장 이름 검색 (예: 송정역)"
+             autocomplete="off" enterkeyhint="search"
+             role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions">
+      <button id="clear-btn" class="clear" type="button" aria-label="검색어 지우기" hidden>×</button>
+      <ul id="suggestions" class="suggestions" role="listbox" hidden></ul>
+    </div>
+    <div class="dir-toggle" role="group" aria-label="등교 하교 선택">
+      <button type="button" data-dir="등교" class="active" aria-pressed="true">등교</button>
+      <button type="button" data-dir="하교" aria-pressed="false">하교</button>
+    </div>
+  </header>
+
+  <main id="results" aria-live="polite">
+    <p class="hint">정류장을 검색해서 고르면 그 정류장을 지나는 버스가 시간순으로 나와요.</p>
+  </main>
+
+  <footer class="bottom">
+    <p>노선과 시간은 상황에 따라 바뀔 수 있으니 학생지원과 공지를 확인하세요</p>
+    <p id="contact" class="contact"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
